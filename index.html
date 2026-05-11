@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>मेरी वेबसाइट</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:linear-gradient(-45deg,#ee7752,#e73c7e,#23a6d5,#23d5ab);background-size:400% 400%;animation:gradient 15s ease infinite;font-family:system-ui,min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#fff;text-align:center;padding:20px;}
+@keyframes gradient{0%{background-position:0% 50%;}50%{background-position:100% 50%;}100%{background-position:0% 50%;}}
+h1{font-size:clamp(2.5rem,12vw,5rem);margin-bottom:1rem;text-shadow:3px 3px 10px rgba(0,0,0,.5);}
+p{font-size:clamp(1.1rem,5vw,1.6rem);margin-bottom:2rem;max-width:90%;}
+.btns{display:flex;flex-wrap:wrap;gap:1rem;justify-content:center;margin:2rem 0;}
+.btn{background:#fff;color:#333;padding:1rem 2rem;border-radius:50px;font-weight:700;font-size:1.1rem;text-decoration:none;box-shadow:0 8px 25px rgba(0,0,0,.2);transition:all .3s;}
+.btn:hover{transform:translateY(-5px);box-shadow:0 15px 35px rgba(0,0,0,.3);}
+.social{margin:2rem 0;font-size:2rem;display:flex;gap:2rem;}
+.social a{color:#fff;transition:.3s;}
+.social a:hover{transform:scale(1.3) rotate(10deg);}
+footer{margin-top:3rem;font-size:1rem;opacity:.9;}
+@media(max-width:768px){.btns{flex-direction:column;align-items:center;}.btn{width:100%;max-width:280px;}}
+</style>
+</head>
+<body>
+<h1>🎉 नमस्ते!</h1>
+<p>आपकी FREE GitHub वेबसाइट तैयार है! 🚀<br>Mobile + Desktop पर perfect.</p>
+
+<div class="btns">
+<a href="https://wa.me/91YOURNUMBER" class="btn">📱 WhatsApp</a>
+<a href="mailto:YOUR_EMAIL@gmail.com" class="btn">📧 Email Me</a>
+<a href="#" class="btn">📘 About</a>
+</div>
+
+<div class="social">
+<a href="#">📘</a> <a href="#">📱</a> <a href="#">🐦</a>
+</div>
+
+<footer>✨ Made with GitHub Pages | Fast • Free • Beautiful</footer>
+</body>
+</html>
